@@ -3,7 +3,7 @@ from typing import Set
 from talon import Module, Context, actions, app
 import sys
 
-default_alphabet = "arch brov char delta echo foxy goof hotel India julia kilo Lima Mike Novakeen oscar prime Quebec Romeo Sierra tango uniform victor whiskey x-ray yankee Zulu".split(
+default_alphabet = "arch brov char delta echo foxy goof hotel India julia kilo Lima Mike Novakeen oscar prime Quebec Romeo Sierra tango uniform victor whiskey xray yankee Zulu".split(
     " "
 )
 #default_alphabet = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
