@@ -111,6 +111,14 @@ def gui_wheel(gui: imgui.GUI):
 
 @mod.action_class
 class Actions:
+    def control_mouse_enable():
+        """Enables control mouse"""
+        toggle_control(True)
+
+    def control_mouse_disable():
+        """Disables control mouse"""
+        toggle_control(False)
+
     def mouse_show_cursor():
         """Shows the cursor"""
         show_cursor_helper(True)
